@@ -12,6 +12,7 @@ That said alot of frameworks also just use hyper directly e.g. [poem](https://gi
 Hyper provides a client implementation which is reletively low level, this is because alot of the HTTP spec is shared by both client and server.
 
 Reqwest is the only client I know built on hyper's client and it also provides it's own extensions like blocking / syncronous support. WASM I believe is completely seperate to hyper.
+
 ![Client](https://user-images.githubusercontent.com/57491488/148133506-4448a102-adb8-4694-8534-5f71f459b065.png)
 
 # Hyper on other runtimes
